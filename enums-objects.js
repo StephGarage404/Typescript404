@@ -8,11 +8,10 @@ var DaysOfWeek;
     DaysOfWeek[DaysOfWeek["Friday"] = 5] = "Friday";
     DaysOfWeek[DaysOfWeek["Saturday"] = 6] = "Saturday";
 })(DaysOfWeek || (DaysOfWeek = {}));
-
 var person = {
     firstName: "Stéphane",
     lastName: "Mumu",
     age: 28,
     dayOfBirth: DaysOfWeek.Monday
 };
-
+console.log(person.firstName, person.lastName, person.age, person.dayOfBirth);
